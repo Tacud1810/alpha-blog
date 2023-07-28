@@ -13,3 +13,54 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.navbar {
+	background-color: black !important;
+}
+
+.nav-link {
+	color: white !important
+}
+
+#logo{
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.container{
+	background-color: rgb(235, 224, 204);
+	
+}
+
+#home-container{
+	margin-top: 25px;
+	
+}
+
+.image-home-page {
+	background-image: url('aneta-pawlik.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+}
+
+#welcome-sentence {
+	color: white;
+}
+
+#sticky-footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+	color: white;
+}
+
+body {
+	background-color: rgb(235, 224, 204);
+}
