@@ -12,9 +12,9 @@
     
   </head>
 
-  <body>
+  <body class="d-flex flex-column">
     <%= render 'layouts/navigation'%>
-    <div class="container mb-5 pb-5">
+    <div id="page-content" class="container">
       <%= render 'layouts/messages' %>
       <%= yield %>
     </div>  
