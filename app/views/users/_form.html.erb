@@ -24,7 +24,7 @@
 				</div>
 
 				<div class="row mb-3 justify-content-center">
-					<%= f.submit "Sign up", class:"btn btn-outline-dark btn-md col-2"%>
+					<%= f.submit(@user.new_record? ? "Sign up" : "Update account", class:"btn btn-outline-dark btn-md col-3")%>
 				</div>
 			<% end %>
 			<%= link_to '[ Cancel and return to articles ]', articles_path, class:"text-black" %>
